@@ -14,6 +14,6 @@ myapp.use(express.urlencoded({ extended: true }))
 myapp.use(cors())
 myapp.use(routing);
 
-myapp.listen(port, () => {
+myapp.listen(port, "0.0.0.0", () => {
     console.log("node is running on: ", port);
 })
