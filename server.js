@@ -1,4 +1,4 @@
-// 'Access-Control-Allow-Origin'
+'Access-Control-Allow-Origin'
 import express from 'express';
 import cors from 'cors'
 import { configDotenv } from 'dotenv';
